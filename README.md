@@ -71,7 +71,7 @@ go mod tidy
 ### 2. Build the Binary
 
 ```bash
-# Build for local execution
+# Build for single node execution
 go build -o main_runner main_runner.go
 
 # Build for distributed deployment (recommended name)
