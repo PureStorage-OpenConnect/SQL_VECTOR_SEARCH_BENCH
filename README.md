@@ -136,8 +136,8 @@ Tests 4 clients against 2 SQL Server nodes (SQL5 and SQL6).
 ```
 
 **Configuration:**
-- 2 Clients → SQL Node 5 (Table 5)
-- 2 Clients → SQL Node 6 (Table 6)
+- 2 Clients → SQL Node 1 (Table 1,2,3,4,5)
+- 2 Clients → SQL Node 2 (Table 6,7,8,9,10)
 - Concurrency levels: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
 - Duration: 30 seconds per level
 - Output: `./go_2node_verify_<timestamp>/`
